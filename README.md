@@ -10,7 +10,7 @@ Simple client side form validation. Check required, length, email and password m
 - checkEmail() to validate email with regex
 - checkPasswordsMatch() to match confirm password
 
-### Seat Booking
+### Movie Seat Booking
 Display movie choices and seats in a theater to select from in order to purchase tickets
 - Display UI with movie select, screen, seats, legend & seat info
 - User can select a movie/price
@@ -19,7 +19,7 @@ Display movie choices and seats in a theater to select from in order to purchase
 - Number of seats and price will update
 - Save seats, movie and price to local storage so that UI is still populated on refresh
 
-### Video Player
+### Custom Video Player
 Custom video player using the HTML5 video element and it's JavaScript API with a custom design
 - Display custom video player styled with CSS
 - Play/Pause
@@ -27,3 +27,11 @@ Custom video player using the HTML5 video element and it's JavaScript API with a
 - Video progress bar
 - Set progress bar time
 - Display time in mins and seconds
+
+### Exchange Rate Calculator
+Select countries to get the exchange rate for a specific amount
+- Display UI with 2 select lists for countries and 2 inputs for amounts
+- Fetch exchange rates from API (https://api.exchangerate-api.com)
+- Display the values for both countries
+- Update values on amount change
+- Swap country rates
