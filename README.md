@@ -76,3 +76,14 @@ Select a letter to figure out a hidden word in a set amount of chances
 - Show notification when select a letter twice
 - Show popup on win or lose
 - Play again button to reset game
+
+## Expense Tracker
+
+Keep track of income and expenses. Add and remove items and save to local storage
+
+- Create UI for project
+- Display transaction items in DOM
+- Show balance, expense and income totals
+- Add new transation and reflect in total
+- Delete items from DOM
+- Persist to local storage
